@@ -1,0 +1,281 @@
+/* index page */
+
+.background {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-box {
+  background-color:rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width:43%;
+  height: 50%;
+  padding: 5% 5%;
+  text-align: center;
+  
+}
+@media (max-width:1028px){
+    
+    .container-box{
+        width: 65%;
+        height: 40%;
+        padding: 8% 5%;
+    }
+    
+}
+#bg-heading{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #fff;
+    line-height: 1.25;   
+}
+.btn-shopnow{
+    margin-top: 3%;
+}
+
+.title-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.brands{
+    padding: 5% 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.collapse-nav{
+    margin-left: auto;
+    gap: 12px;
+}
+.nav-class{
+    padding: 1% 9% !important;
+}
+
+    
+#footer{
+    padding: 1% 15%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    
+}
+.footer-i{
+    margin:10px 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+#shoes{
+    padding: 7% 10%;
+}
+#Nike{
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+
+}
+#Adidas{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding-bottom: 5%;
+}
+
+/* Sign-up page */
+
+
+ .container-box5{
+    width: 50%;
+    margin: 3% 20%;
+    font-family: inherit;
+    line-height: 2;
+} 
+.body-classsignup{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.h1-signup{
+    padding-bottom: 1%;
+}
+.form-signup{
+    width:42% ;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+@media (max-width:1028px){
+    
+    .container-box5{
+        width: 100%;
+        margin: 0;
+        padding:10%;
+        box-sizing: border-box;
+        font-family: inherit;
+        line-height: 2;
+
+    }
+    .form-signup{
+        width: 70%;
+    }
+    
+}
+
+
+
+/* product page */
+
+.container-box1 {
+    background-color: #EEEEEE;
+    height: 50%;
+    margin: 2% 8% 5% 8% ;
+    padding: 5% 5%;
+    border-radius: 5px;
+    
+}
+
+#section2{
+    padding: 3% 7%;
+}
+#cont-head{
+    font-size: 20px;
+    text-align:justify;
+    margin-top: 2%;
+}
+#cont-heading{
+    font-size: 60px;
+    text-align: left;
+}
+.prod-sec2-head{
+    text-align: center;
+}
+.btn-prod{
+    text-align: center;
+    background-color: #337AB7;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+
+}
+
+.row-sec2{
+    row-gap: 35px;
+
+}
+
+.btn-signup,.btn-login{
+    background-color: #337AB7;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin-top: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+
+}
+ /*login*/
+.container-box2{
+    border: 1px solid #337ab7; 
+    border-radius: 5px;
+    width: 35%;
+    margin: 5% 30%;
+}
+@media (max-width:1028px){
+    
+    .container-box2{
+        margin:20% 10% 0%;
+        width: 80%;
+    }
+    
+}
+.body-classlogin{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.panel-heading{
+    background-color: #337AB7;
+    padding: 1% 3%;
+    margin-bottom: 1%;
+    color: #fff;
+    
+}
+.panel-body,.panel-footer{
+    padding: 10px 20px;
+    
+}
+.form-inp{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.img-class{
+    width: 325;
+    height: 325px;
+}
+
+/*logout*/
+.logout-sec{
+    color: rgb(255, 36, 36);
+    font-size: 20px;
+    margin: 5% 30% 0%;
+
+}
+
+.body-classlogout{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container-box3{
+    border: 1px solid #337ab7; 
+    border-radius: 5px;
+    width: 35%;
+    margin: 1% 30%;
+}
+
+@media (max-width:1028px){
+    .logout-sec{
+        margin: 5% 10% 0% ;
+        width: 80%;
+    }
+    .container-box3{
+        margin: 1% 10% 0%;
+        width: 80%;
+    }
+    
+}
+/* cart */
+.container-box4{
+    border-radius: 5px;
+    width: 30%;
+    margin: 1% 30%;
+}
+@media(max-width:1028px){
+    .container-box4{
+        margin: 0;
+        padding: 5%;
+        width: 100%;
+    }
+}
+.panel-heading-psw{
+    margin: 10% 3% 4%;
+    
+}
+.body-classpasw{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+input[type="password"],
+input[type="number"],
+input[type="text"],
+input[type="email"]{
+    padding: 0.5%;
+}
